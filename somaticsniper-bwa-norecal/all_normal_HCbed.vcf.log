@@ -1,0 +1,21 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf all_normal_out.vcf
+	--recode-INFO-all
+	--out all_normal_HCbed.vcf
+	--recode
+	--bed /home/bioinfo/High-Confidence_Regions_v1.2.bed
+
+Warning: Expected at least 2 parts in FORMAT entry: ID=BCOUNT,Number=4,Type=Integer,Description="Occurrence count for each base at this site (A,C,G,T)">
+Warning: Expected at least 2 parts in FORMAT entry: ID=BCOUNT,Number=4,Type=Integer,Description="Occurrence count for each base at this site (A,C,G,T)">
+Warning: Expected at least 2 parts in FORMAT entry: ID=BCOUNT,Number=4,Type=Integer,Description="Occurrence count for each base at this site (A,C,G,T)">
+Warning: Expected at least 2 parts in FORMAT entry: ID=DP4,Number=4,Type=Integer,Description="# high-quality ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+Warning: Expected at least 2 parts in FORMAT entry: ID=DP4,Number=4,Type=Integer,Description="# high-quality ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+After filtering, kept 2 out of 2 Individuals
+Outputting VCF file...
+	Read 709209 BED file entries.
+After filtering, kept 16665 out of a possible 26934 Sites
+Run Time = 9.00 seconds
