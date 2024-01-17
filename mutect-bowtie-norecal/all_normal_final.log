@@ -1,0 +1,22 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf all_normal_HCbed.vcf.recode.vcf
+	--recode-INFO-all
+	--out all_normal_final
+	--recode
+	--bed /home/bioinfo/S07604624_Covered_human_all_v6_plus_UTR.liftover.to.hg38.bed6
+
+Warning: Expected at least 2 parts in FORMAT entry: ID=germline,Description="Evidence indicates this site is germline, not somatic">
+Warning: Expected at least 2 parts in FORMAT entry: ID=PGT,Number=1,Type=String,Description="Physical phasing haplotype information, describing how the alternate alleles are phased in relation to one another; will always be heterozygous and is not intended to describe called alleles">
+Warning: Expected at least 2 parts in FORMAT entry: ID=PID,Number=1,Type=String,Description="Physical phasing ID information, where each unique ID within a given sample (but not across samples) connects records within a phasing group">
+Warning: Expected at least 2 parts in FORMAT entry: ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
+Warning: Expected at least 2 parts in INFO entry: ID=AS_FilterStatus,Number=A,Type=String,Description="Filter status for each allele, as assessed by ApplyVQSR. Note that the VCF filter field will reflect the most lenient/sensitive status across all alleles.">
+Warning: Expected at least 2 parts in INFO entry: ID=RPA,Number=R,Type=Integer,Description="Number of times tandem repeat unit is repeated, for each allele (including reference)">
+After filtering, kept 2 out of 2 Individuals
+Outputting VCF file...
+	Read 295602 BED file entries.
+After filtering, kept 1636 out of a possible 2635 Sites
+Run Time = 1.00 seconds

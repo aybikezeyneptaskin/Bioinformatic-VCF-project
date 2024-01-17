@@ -1,0 +1,12 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf all_filtered_out.vcf
+	--recode-INFO-all
+	--out all_filtered_HCbed.vcf
+	--recode
+	--bed /home/bioinfo/High-Confidence_Regions_v1.2.bed
+
+Error: Can't determine file type of all_filtered_out.vcf
